@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T19:01:28.002Z",
+        "line": 4,
+        "name": "Verifying login functionalities with positive test",
+        "description": "",
+        "id": "validating-login-page;verifying-login-functionalities-with-positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat stepDefinitions.LoginSteps.user_launches(LoginSteps.java:38)\n\tat ✽.User launches \"http://fidelity.com\"(file:Features/login.feature:5)\n",
+              "duration": 27277836,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User launches \"http://fidelity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://fidelity.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginSteps.user_launches(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1049831,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters Username \"megalodongroupi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"megalodongroupi\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.user_enters_Username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 941713,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters password as \"ramin456In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramin456In\"",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038313,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794313,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Get the Title of Page and Close",
+            "match": {
+              "location": "LoginSteps.get_the_Title_of_Page_and_Close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Validating login page",
+    "description": "",
+    "id": "validating-login-page",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
